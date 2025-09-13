@@ -1,0 +1,27 @@
+{
+  "name": "BobPool Legal Documents",
+  "short_name": "BobPool Legal",
+  "description": "Privacy Policy and Terms of Service for BobPool recipe sharing app",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#4CAF50",
+  "background_color": "#FAFAFA",
+  "categories": ["legal", "privacy", "terms"],
+  "lang": "ko",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

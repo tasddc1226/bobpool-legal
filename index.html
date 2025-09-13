@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BobPool - 한국 레시피 공유 커뮤니티 앱의 개인정보처리방침 및 이용약관">
+    <meta name="keywords" content="BobPool, 레시피, 개인정보처리방침, 이용약관, 한국 요리">
+    <title>BobPool - 법적 문서</title>
+
+    <!-- SEO Meta Tags -->
+    <meta property="og:title" content="BobPool - 법적 문서">
+    <meta property="og:description" content="BobPool 레시피 공유 앱의 개인정보처리방침 및 이용약관">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://legal.bobpool.app">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+    <!-- CSS Styles -->
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Root Variables */
+        :root {
+            --primary-color: #4CAF50;
+            --secondary-color: #2E7D32;
+            --accent-color: #FF9800;
+            --text-dark: #212121;
+            --text-light: #757575;
+            --bg-light: #FAFAFA;
+            --bg-white: #FFFFFF;
+            --border-color: #E0E0E0;
+            --shadow-light: 0 2px 4px rgba(0,0,0,0.1);
+            --shadow-medium: 0 4px 6px rgba(0,0,0,0.1);
+            --border-radius: 8px;
+            --transition: all 0.3s ease;
+            --max-width: 1200px;
+            --font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', '맑은 고딕', sans-serif;
+        }
+
+        /* Typography */
+        body {
+            font-family: var(--font-family);
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+        }
+
+        h1 { font-size: 2.5rem; }
+        h2 { font-size: 2rem; }
+        h3 { font-size: 1.5rem; }
+        h4 { font-size: 1.25rem; }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        a:hover,
+        a:focus {
+            color: var(--secondary-color);
+            text-decoration: underline;
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+
+        /* Layout */
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .main-content {
+            padding: 2rem 0;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: var(--shadow-medium);
+        }
+
+        .header h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 0;
+        }
+
+        /* Navigation */
+        .nav {
+            background: var(--bg-white);
+            padding: 1rem 0;
+            box-shadow: var(--shadow-light);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-list {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .nav-link {
+            padding: 0.5rem 1rem;
+            border-radius: var(--border-radius);
+            font-weight: 500;
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+
+        .nav-link:hover,
+        .nav-link:focus {
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            outline: none;
+        }
+
+        /* Language Switcher */
+        .language-switcher {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .lang-btn {
+            padding: 0.3rem 0.6rem;
+            border: 1px solid rgba(255,255,255,0.3);
+            background: transparent;
+            color: white;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            transition: var(--transition);
+            font-size: 0.9rem;
+        }
+
+        .lang-btn:hover,
+        .lang-btn:focus {
+            background: rgba(255,255,255,0.2);
+            outline: 2px solid white;
+            outline-offset: 2px;
+        }
+
+        .lang-btn.active {
+            background: rgba(255,255,255,0.3);
+            font-weight: 600;
+        }
+
+        /* Content Sections */
+        .content-section {
+            background: var(--bg-white);
+            margin: 2rem 0;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-light);
+            overflow: hidden;
+        }
+
+        .section-header {
+            background: var(--primary-color);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .section-header h2 {
+            margin-bottom: 0;
+        }
+
+        .section-content {
+            padding: 2rem;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: var(--bg-white);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            transition: var(--transition);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .card-title {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .card-description {
+            flex-grow: 1;
+            margin-bottom: 1.5rem;
+            color: var(--text-light);
+        }
+
+        .card-button {
+            background: var(--primary-color);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            transition: var(--transition);
+            font-weight: 500;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .card-button:hover,
+        .card-button:focus {
+            background: var(--secondary-color);
+            transform: translateY(-1px);
+            text-decoration: none;
+            color: white;
+            outline: 2px solid var(--secondary-color);
+            outline-offset: 2px;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--text-dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+
+        .footer-section h4 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        .footer-section a:hover {
+            color: var(--primary-color);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #444;
+            padding-top: 1rem;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* Skip Link */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: var(--primary-color);
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            z-index: 1000;
+        }
+
+        .skip-link:focus {
+            top: 6px;
+            outline: 2px solid white;
+            outline-offset: 2px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+
+            .header {
+                padding: 1.5rem 0;
+            }
+
+            .language-switcher {
+                position: relative;
+                top: auto;
+                right: auto;
+                margin-top: 1rem;
+                justify-content: center;
+            }
+
+            .nav-list {
+                flex-direction: column;
+                gap: 0.5rem;
+                text-align: center;
+            }
+
+            .section-content {
+                padding: 1.5rem;
+            }
+
+            .card-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 0.5rem;
+            }
+
+            h1 { font-size: 1.5rem; }
+
+            .card {
+                padding: 1rem;
+            }
+
+            .section-content {
+                padding: 1rem;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            .header,
+            .nav,
+            .language-switcher,
+            .footer {
+                display: none;
+            }
+
+            .content-section {
+                box-shadow: none;
+                border: 1px solid #ccc;
+                margin: 1rem 0;
+            }
+
+            .card-button {
+                display: none;
+            }
+
+            body {
+                background: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">메인 콘텐츠로 건너뛰기</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <!-- Language Switcher -->
+        <div class="language-switcher">
+            <button class="lang-btn active" onclick="switchLanguage('ko')" aria-label="한국어로 보기">한국어</button>
+            <button class="lang-btn" onclick="switchLanguage('en')" aria-label="View in English">English</button>
+        </div>
+
+        <div class="container">
+            <h1>BobPool</h1>
+            <p data-lang="ko">한국 레시피 공유 커뮤니티</p>
+            <p data-lang="en" style="display: none;">Korean Recipe Sharing Community</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="주요 네비게이션">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link" data-lang="ko">홈</a><a href="#home" class="nav-link" data-lang="en" style="display: none;">Home</a></li>
+                <li><a href="#privacy" class="nav-link" data-lang="ko">개인정보처리방침</a><a href="#privacy" class="nav-link" data-lang="en" style="display: none;">Privacy Policy</a></li>
+                <li><a href="#terms" class="nav-link" data-lang="ko">이용약관</a><a href="#terms" class="nav-link" data-lang="en" style="display: none;">Terms of Service</a></li>
+                <li><a href="#contact" class="nav-link" data-lang="ko">연락처</a><a href="#contact" class="nav-link" data-lang="en" style="display: none;">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content" role="main">
+        <div class="container">
+
+            <!-- Home Section -->
+            <section id="home" class="content-section">
+                <div class="section-header">
+                    <h2 data-lang="ko">BobPool 법적 문서</h2>
+                    <h2 data-lang="en" style="display: none;">BobPool Legal Documents</h2>
+                </div>
+                <div class="section-content">
+                    <p data-lang="ko">
+                        BobPool은 한국의 전통 레시피와 현대적인 요리법을 공유하는 커뮤니티 플랫폼입니다.
+                        저희는 사용자의 개인정보 보호와 서비스 이용의 투명성을 위해 관련 법령을 준수하며,
+                        명확한 이용 조건을 제공합니다.
+                    </p>
+                    <p data-lang="en" style="display: none;">
+                        BobPool is a community platform for sharing traditional Korean recipes and modern cooking methods.
+                        We comply with relevant laws for user privacy protection and service transparency,
+                        providing clear terms of use.
+                    </p>
+
+                    <div class="card-grid">
+                        <div class="card">
+                            <h3 class="card-title" data-lang="ko">개인정보처리방침</h3>
+                            <h3 class="card-title" data-lang="en" style="display: none;">Privacy Policy</h3>
+                            <p class="card-description" data-lang="ko">
+                                개인정보보호법에 따라 작성된 BobPool의 개인정보 수집, 이용, 제공, 관리 등에 관한 정책입니다.
+                                사용자의 개인정보가 어떻게 처리되는지 상세히 안내합니다.
+                            </p>
+                            <p class="card-description" data-lang="en" style="display: none;">
+                                BobPool's policy regarding the collection, use, provision, and management of personal information
+                                in accordance with the Personal Information Protection Act. It provides detailed guidance on how user personal information is processed.
+                            </p>
+                            <a href="privacy-policy.html" class="card-button" data-lang="ko">전체 보기</a>
+                            <a href="privacy-policy-en.html" class="card-button" data-lang="en" style="display: none;">View Full Policy</a>
+                        </div>
+
+                        <div class="card">
+                            <h3 class="card-title" data-lang="ko">서비스 이용약관</h3>
+                            <h3 class="card-title" data-lang="en" style="display: none;">Terms of Service</h3>
+                            <p class="card-description" data-lang="ko">
+                                BobPool 서비스 이용에 관한 조건과 규칙을 명시한 약관입니다.
+                                회원가입, 서비스 이용, 콘텐츠 게시 등에 관한 권리와 의무를 규정합니다.
+                            </p>
+                            <p class="card-description" data-lang="en" style="display: none;">
+                                Terms and conditions that specify the rules for using BobPool services.
+                                It defines rights and obligations regarding membership registration, service use, content posting, etc.
+                            </p>
+                            <a href="terms-of-service.html" class="card-button" data-lang="ko">전체 보기</a>
+                            <a href="terms-of-service-en.html" class="card-button" data-lang="en" style="display: none;">View Full Terms</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Privacy Section -->
+            <section id="privacy" class="content-section">
+                <div class="section-header">
+                    <h2 data-lang="ko">개인정보처리방침 요약</h2>
+                    <h2 data-lang="en" style="display: none;">Privacy Policy Summary</h2>
+                </div>
+                <div class="section-content">
+                    <div data-lang="ko">
+                        <h3>수집하는 개인정보</h3>
+                        <ul>
+                            <li><strong>필수정보:</strong> 이메일주소, 비밀번호, 닉네임</li>
+                            <li><strong>선택정보:</strong> 프로필 사진, 자기소개</li>
+                            <li><strong>자동수집:</strong> 서비스 이용기록, 접속 로그, 기기정보</li>
+                        </ul>
+
+                        <h3>개인정보 이용목적</h3>
+                        <ul>
+                            <li>회원가입 및 본인인증</li>
+                            <li>레시피 공유 서비스 제공</li>
+                            <li>맞춤형 콘텐츠 제공</li>
+                            <li>서비스 개선 및 신규 서비스 개발</li>
+                        </ul>
+
+                        <h3>개인정보 보유기간</h3>
+                        <p>회원탈퇴시까지 또는 법정 의무 보관기간 동안 보유합니다.</p>
+                    </div>
+
+                    <div data-lang="en" style="display: none;">
+                        <h3>Personal Information We Collect</h3>
+                        <ul>
+                            <li><strong>Required Information:</strong> Email address, password, nickname</li>
+                            <li><strong>Optional Information:</strong> Profile picture, self-introduction</li>
+                            <li><strong>Automatically Collected:</strong> Service usage records, access logs, device information</li>
+                        </ul>
+
+                        <h3>Purpose of Using Personal Information</h3>
+                        <ul>
+                            <li>Member registration and identity verification</li>
+                            <li>Recipe sharing service provision</li>
+                            <li>Personalized content provision</li>
+                            <li>Service improvement and new service development</li>
+                        </ul>
+
+                        <h3>Personal Information Retention Period</h3>
+                        <p>Retained until membership withdrawal or during the legally required retention period.</p>
+                    </div>
+
+                    <p style="text-align: center; margin-top: 2rem;">
+                        <a href="privacy-policy.html" class="card-button" data-lang="ko">개인정보처리방침 전체 보기</a>
+                        <a href="privacy-policy-en.html" class="card-button" data-lang="en" style="display: none;">View Full Privacy Policy</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- Terms Section -->
+            <section id="terms" class="content-section">
+                <div class="section-header">
+                    <h2 data-lang="ko">이용약관 주요내용</h2>
+                    <h2 data-lang="en" style="display: none;">Key Terms of Service</h2>
+                </div>
+                <div class="section-content">
+                    <div data-lang="ko">
+                        <h3>서비스 정의</h3>
+                        <p>BobPool은 한국 레시피 공유 및 요리 커뮤니티 서비스를 제공합니다.</p>
+
+                        <h3>이용자의 권리와 의무</h3>
+                        <ul>
+                            <li>개인정보 보호받을 권리</li>
+                            <li>서비스를 정상적으로 이용할 권리</li>
+                            <li>약관 및 법령 준수 의무</li>
+                            <li>타인의 권리 침해 금지 의무</li>
+                        </ul>
+
+                        <h3>금지행위</h3>
+                        <ul>
+                            <li>허위정보 등록</li>
+                            <li>타인의 정보 도용</li>
+                            <li>저작권 침해</li>
+                            <li>불법적이거나 부적절한 콘텐츠 게시</li>
+                        </ul>
+
+                        <h3>서비스 이용제한</h3>
+                        <p>약관 위반시 서비스 이용이 제한될 수 있습니다.</p>
+                    </div>
+
+                    <div data-lang="en" style="display: none;">
+                        <h3>Service Definition</h3>
+                        <p>BobPool provides Korean recipe sharing and cooking community services.</p>
+
+                        <h3>User Rights and Obligations</h3>
+                        <ul>
+                            <li>Right to personal information protection</li>
+                            <li>Right to normal service use</li>
+                            <li>Obligation to comply with terms and laws</li>
+                            <li>Obligation to prohibit infringement of others' rights</li>
+                        </ul>
+
+                        <h3>Prohibited Activities</h3>
+                        <ul>
+                            <li>Registering false information</li>
+                            <li>Stealing others' information</li>
+                            <li>Copyright infringement</li>
+                            <li>Posting illegal or inappropriate content</li>
+                        </ul>
+
+                        <h3>Service Usage Restrictions</h3>
+                        <p>Service use may be restricted in case of terms violation.</p>
+                    </div>
+
+                    <p style="text-align: center; margin-top: 2rem;">
+                        <a href="terms-of-service.html" class="card-button" data-lang="ko">이용약관 전체 보기</a>
+                        <a href="terms-of-service-en.html" class="card-button" data-lang="en" style="display: none;">View Full Terms of Service</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="content-section">
+                <div class="section-header">
+                    <h2 data-lang="ko">연락처</h2>
+                    <h2 data-lang="en" style="display: none;">Contact Information</h2>
+                </div>
+                <div class="section-content">
+                    <div class="card-grid">
+                        <div class="card">
+                            <h3 class="card-title" data-lang="ko">개인정보 관련 문의</h3>
+                            <h3 class="card-title" data-lang="en" style="display: none;">Privacy Inquiries</h3>
+                            <p data-lang="ko">개인정보 처리에 관한 문의사항이 있으시면 아래 연락처로 연락해 주세요.</p>
+                            <p data-lang="en" style="display: none;">For inquiries about personal information processing, please contact us at the following address.</p>
+                            <p><strong data-lang="ko">이메일:</strong><strong data-lang="en" style="display: none;">Email:</strong> <a href="mailto:privacy@bobpool.app">privacy@bobpool.app</a></p>
+                        </div>
+
+                        <div class="card">
+                            <h3 class="card-title" data-lang="ko">일반 문의</h3>
+                            <h3 class="card-title" data-lang="en" style="display: none;">General Inquiries</h3>
+                            <p data-lang="ko">서비스 이용 관련 문의사항이 있으시면 언제든 연락해 주세요.</p>
+                            <p data-lang="en" style="display: none;">For service-related inquiries, please feel free to contact us anytime.</p>
+                            <p><strong data-lang="ko">이메일:</strong><strong data-lang="en" style="display: none;">Email:</strong> <a href="mailto:support@bobpool.app">support@bobpool.app</a></p>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 2rem; padding: 1.5rem; background: var(--bg-light); border-radius: var(--border-radius);">
+                        <h4 data-lang="ko">BobPool 개발팀</h4>
+                        <h4 data-lang="en" style="display: none;">BobPool Development Team</h4>
+                        <p data-lang="ko">대한민국 서울특별시</p>
+                        <p data-lang="en" style="display: none;">Seoul, South Korea</p>
+                        <p><strong data-lang="ko">대표 이메일:</strong><strong data-lang="en" style="display: none;">Main Email:</strong> <a href="mailto:contact@bobpool.app">contact@bobpool.app</a></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 data-lang="ko">BobPool 소개</h4>
+                    <h4 data-lang="en" style="display: none;">About BobPool</h4>
+                    <p data-lang="ko">한국의 전통 레시피와 현대적인 요리법을 공유하는 커뮤니티 플랫폼입니다.</p>
+                    <p data-lang="en" style="display: none;">A community platform for sharing traditional Korean recipes and modern cooking methods.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-lang="ko">법적 문서</h4>
+                    <h4 data-lang="en" style="display: none;">Legal Documents</h4>
+                    <p><a href="privacy-policy.html" data-lang="ko">개인정보처리방침</a><a href="privacy-policy-en.html" data-lang="en" style="display: none;">Privacy Policy</a></p>
+                    <p><a href="terms-of-service.html" data-lang="ko">이용약관</a><a href="terms-of-service-en.html" data-lang="en" style="display: none;">Terms of Service</a></p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-lang="ko">연락처</h4>
+                    <h4 data-lang="en" style="display: none;">Contact</h4>
+                    <p><a href="mailto:privacy@bobpool.app" data-lang="ko">개인정보 관련 문의</a><a href="mailto:privacy@bobpool.app" data-lang="en" style="display: none;">Privacy Inquiries</a></p>
+                    <p><a href="mailto:support@bobpool.app" data-lang="ko">일반 문의</a><a href="mailto:support@bobpool.app" data-lang="en" style="display: none;">General Inquiries</a></p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p data-lang="ko">&copy; 2025 BobPool. 모든 권리 보유.</p>
+                <p data-lang="en" style="display: none;">&copy; 2025 BobPool. All rights reserved.</p>
+                <p data-lang="ko">본 웹사이트는 한국의 개인정보보호법 및 관련 법령을 준수합니다.</p>
+                <p data-lang="en" style="display: none;">This website complies with Korea's Personal Information Protection Act and related laws.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Language switching functionality
+        let currentLanguage = 'ko';
+
+        function switchLanguage(lang) {
+            currentLanguage = lang;
+
+            // Update button states
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`[onclick="switchLanguage('${lang}')"]`).classList.add('active');
+
+            // Hide all language elements
+            document.querySelectorAll('[data-lang]').forEach(el => {
+                el.style.display = 'none';
+            });
+
+            // Show selected language elements
+            document.querySelectorAll(`[data-lang="${lang}"]`).forEach(el => {
+                el.style.display = el.tagName.toLowerCase() === 'p' ? 'block' :
+                                 el.tagName.toLowerCase().includes('h') ? 'block' :
+                                 el.classList.contains('nav-link') ? 'inline-block' :
+                                 el.classList.contains('card-button') ? 'inline-block' :
+                                 el.style.display = '';
+            });
+
+            // Update page language attribute
+            document.documentElement.lang = lang;
+
+            // Store language preference
+            localStorage.setItem('bobpool-language', lang);
+        }
+
+        // Load saved language preference
+        window.addEventListener('DOMContentLoaded', function() {
+            const savedLanguage = localStorage.getItem('bobpool-language') || 'ko';
+            if (savedLanguage !== 'ko') {
+                switchLanguage(savedLanguage);
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const headerOffset = 100;
+                    const elementPosition = target.offsetTop;
+                    const offsetPosition = elementPosition - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Add active state to navigation based on scroll position
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Accessibility: Add keyboard navigation for buttons
+        document.querySelectorAll('.lang-btn, .card-button').forEach(element => {
+            element.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    this.click();
+                }
+            });
+        });
+
+        // Analytics (placeholder for Google Analytics or other services)
+        function trackEvent(category, action, label) {
+            // Placeholder for analytics tracking
+            console.log(`Analytics: ${category} - ${action} - ${label}`);
+
+            // Example: Google Analytics 4
+            // gtag('event', action, {
+            //     event_category: category,
+            //     event_label: label
+            // });
+        }
+
+        // Track language switches
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                trackEvent('User Interaction', 'Language Switch', this.textContent.trim());
+            });
+        });
+
+        // Track document views
+        document.querySelectorAll('.card-button').forEach(btn => {
+            btn.addEventListener('click', function() {
+                trackEvent('Document Access', 'View Legal Document', this.getAttribute('href'));
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://legal.bobpool.app/sitemap.xml
+
+# Allow crawling of legal documents
+Allow: /privacy-policy.html
+Allow: /privacy-policy-en.html
+Allow: /terms-of-service.html
+Allow: /terms-of-service-en.html
+Allow: /index.html
+
+# Disallow unnecessary files
+Disallow: /*.md$
+Disallow: /.github/
+Disallow: /README.md
