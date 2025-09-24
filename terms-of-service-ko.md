@@ -210,7 +210,7 @@
 **본 약관은 2025년 9월 24일부터 시행됩니다.**
 
 **연락처**
-- 이메일: support@bobpool.app
+- 이메일: tasddc@naver.com
 - 주소: 대한민국 서울특별시
 - 대표: BobPool 개발팀
 

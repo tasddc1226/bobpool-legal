@@ -173,9 +173,9 @@ static const String legalWebsiteBaseUrl = 'https://legal.bobpool.app';
 - 제3자 제공 현황 (Supabase, Google Analytics 등) 정확성 확인
 
 ### 연락처 관리
-- privacy@bobpool.app: 개인정보 관련 문의
-- support@bobpool.app: 일반 서비스 문의
-- contact@bobpool.app: 기타 법무 관련 문의
+- tasddc@naver.com: 개인정보 관련 문의
+- tasddc@naver.com: 일반 서비스 문의
+- tasddc@naver.com: 기타 법무 관련 문의
 
 ### 백업 및 복구
 - 법적 문서는 항상 원본 파일(Markdown) 보관
@@ -203,7 +203,7 @@ static const String legalWebsiteBaseUrl = 'https://legal.bobpool.app';
 
 ### 연락처
 - **기술적 문제**: GitHub Issues 또는 개발팀
-- **법적 문의**: contact@bobpool.app
+- **법적 문의**: tasddc@naver.com
 - **긴급 상황**: 즉시 개발팀 연락
 
 ---

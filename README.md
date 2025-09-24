@@ -86,9 +86,9 @@ git push origin main
 
 ## 연락처
 
-- **개인정보 관련**: privacy@bobpool.app
-- **일반 문의**: support@bobpool.app
-- **법무 관련**: contact@bobpool.app
+- **개인정보 관련**: tasddc@naver.com
+- **일반 문의**: tasddc@naver.com
+- **법무 관련**: tasddc@naver.com
 
 ## 버전 관리
 
