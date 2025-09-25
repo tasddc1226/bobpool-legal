@@ -30,4 +30,10 @@
     <changefreq>quarterly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://legal.bobpool.app/signup-complete.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
